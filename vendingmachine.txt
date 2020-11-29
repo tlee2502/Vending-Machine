@@ -1,0 +1,6 @@
+Bag of Sweets::0.50::7
+Chocolate Bar::0.75::21
+Coca Cola::1.50::4
+Fanta::1.00::0
+Lemonade::1.25::1
+Pack of Gum::0.20::8

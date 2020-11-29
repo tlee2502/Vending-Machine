@@ -1,0 +1,2 @@
+Juice::0.80::2
+Mineral Water::0.50::3

@@ -1,0 +1,74 @@
+"JAVA_HOME=C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.8.10-hotspot" cmd /c "\"C:\\Program Files\\NetBeans-12.0\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.args=\"-classpath %classpath com.tom.vendingmachine.VendingMachineApp\" -Dexec.executable=\"C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.8.10-hotspot\\bin\\java.exe\" -Dexec.classpathScope=runtime -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans-12.0\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 org.codehaus.mojo:exec-maven-plugin:1.5.0:exec"
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+---------------------< com.tom:VendingMachine >----------------------
+Building VendingMachine 0.1
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:1.5.0:exec (default-cli) @ VendingMachine ---
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Welcome to Tom's Vending Machine
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(1) Bag of Sweets - $0.50 - Stock: 9
+(2) Chocolate Bar - $0.75 - Stock: 22
+(3) Coca Cola - $1.50 - Stock: 4
+(4) Fanta - $1.00 - Stock: 1
+(5) Lemonade - $1.25 - Stock: 3
+(6) Pack of Gum - $0.20 - Stock: 10
+Enter (7) to exit.
+Enter money: $
+1.50
+There is $1.50 in the machine.
+Enter choice: 
+4
+A Fanta is dispensed. Enjoy!
+~There is 2 Quater(s) in change.
+Buy something else? Enter 1 for Yes, 0 for No.
+1
+Fanta - $1.00 - Stock: Out of Stock!
+(1) Bag of Sweets - $0.50 - Stock: 9
+(2) Chocolate Bar - $0.75 - Stock: 22
+(3) Coca Cola - $1.50 - Stock: 4
+(4) Lemonade - $1.25 - Stock: 3
+(5) Pack of Gum - $0.20 - Stock: 10
+Enter (6) to exit.
+You insert your change back into the machine
+There is $0.50 in the machine.
+Enter choice: 
+4
+Insufficient funds for Lemonade. Only $0.50 in machine, Please insert $0.75 to purchase.
+Enter money: $
+0.75
+There is $1.25 in the machine.
+Fanta - $1.00 - Stock: Out of Stock!
+(1) Bag of Sweets - $0.50 - Stock: 9
+(2) Chocolate Bar - $0.75 - Stock: 22
+(3) Coca Cola - $1.50 - Stock: 4
+(4) Lemonade - $1.25 - Stock: 3
+(5) Pack of Gum - $0.20 - Stock: 10
+Enter (6) to exit.
+Enter choice: 
+4
+A Lemonade is dispensed. Enjoy!
+There is no change.
+Buy something else? Enter 1 for Yes, 0 for No.
+1
+Fanta - $1.00 - Stock: Out of Stock!
+(1) Bag of Sweets - $0.50 - Stock: 9
+(2) Chocolate Bar - $0.75 - Stock: 22
+(3) Coca Cola - $1.50 - Stock: 4
+(4) Lemonade - $1.25 - Stock: 2
+(5) Pack of Gum - $0.20 - Stock: 10
+Enter (6) to exit.
+You insert your change back into the machine
+There is $0.00 in the machine.
+Enter choice: 
+6
+Exiting...
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  56.886 s
+Finished at: 2020-11-13T16:36:25Z
+------------------------------------------------------------------------
